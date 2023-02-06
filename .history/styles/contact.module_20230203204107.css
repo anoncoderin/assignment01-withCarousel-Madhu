@@ -1,0 +1,28 @@
+
+.backimage{
+    z-index: -1;
+          position:fixed;
+          width: 100vw;
+          height: 100vh;
+  }
+
+  .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .contactinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: auto;
+    margin-top: 50vh;
+    border: 2px solid black;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    padding: 25px;
+    
+  }

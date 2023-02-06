@@ -1,0 +1,48 @@
+.background{
+    background-color: var(--));
+    z-index: -1;
+          position:fixed;
+          width: 100vw;
+          height: 100vh;
+  }
+
+.hrline{
+    position: relative;
+    max-width: 500px;
+    margin: 100px auto;
+    text-align: center;
+    color: white;
+  }
+  .hrline:before, .hrline:after{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: wheat;
+    display: block;
+    position: absolute;
+    top: 50%;
+  }
+  .hrline:before{
+    left: 0;
+  }
+  .hrline:after{
+     right: 0;
+  }
+
+  .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    margin-left: 21vw;
+    margin-right: 21vw;
+
+  }
+  .arrowdown1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-right: 8vw;
+    margin-left: 85vw;
+  }
+  

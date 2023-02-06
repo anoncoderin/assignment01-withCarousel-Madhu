@@ -1,0 +1,91 @@
+
+.backimage{
+    z-index: -1;
+          position:fixed;
+          width: 100vw;
+          height: 100vh;
+  }
+
+  .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .contactinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: auto;
+    margin-top: 50vh;
+    border: 2px solid black;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    padding: 15px;
+    
+  }
+  .contactinfoname{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+  }
+  .contactinfofirst{
+    display: flex;
+    flex-direction: column;
+  }
+  .contactinfolast{
+    display: flex;
+    flex-direction: column;
+  }
+  .contactemail{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .emailinput{
+    width: 100%;
+    }
+  .hr-line{
+    position: relative;
+    max-width: 500px;
+    margin: 100px auto;
+    text-align: center;
+  }
+  
+.hrline:before{
+  content:" ";
+  height: 2px;
+  width: 130px;
+  background: black;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.hr-line:after{
+  content:" ";
+  height: 2px;
+  width: 130px;
+  background: black;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.line{
+  height: 1px;
+  width: 150px;
+  border-top: 1px solid black;
+
+}
+.spantext{
+  position: relative;
+  top: -0.7em;
+  display: inline-block;
+}
+
+

@@ -1,0 +1,7 @@
+
+.backimage{
+    z-index: -1;
+          position:fixed;
+          width: 100vw;
+          height: 100vh;
+  }

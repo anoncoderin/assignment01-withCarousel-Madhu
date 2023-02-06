@@ -1,0 +1,25 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 30px;
+  }
+
+  .menubar{
+    background-color: transparent;
+    border:none;
+  }
+
+  .togglebutton{
+    position: absolute;
+    display: inline-block;
+    top: 25px;
+    left: 45px;
+  }
+  .linktoggle{
+    background-color: no;
+  }
+
+  

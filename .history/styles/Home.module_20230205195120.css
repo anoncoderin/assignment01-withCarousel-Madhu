@@ -1,0 +1,131 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+.backimage{
+  z-index: -1;
+        position:fixed;
+        width: 100vw;
+        height: 100vh;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  padding-left: 20rem;
+  padding-top: 20rem;
+  padding-right: 35rem;
+  gap: 15px;
+}
+
+.smallp{
+  font-size: 12px;
+}
+
+.button{
+  padding: 2px;
+  background-color: transparent;
+  border-radius: 5px;
+  border-color: beige;
+}
+.button:hover{
+  background-color: beige;
+}
+.buttonlink{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.arrowdown{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-right: 8vw;
+}
+
+
+
+/*old CSS*/
+
+
+
+
+
+
+
+
+
+.center::before,
+.center::after {
+  content: '';
+  left: 50%;
+  position: absolute;
+  filter: blur(45px);
+  transform: translateZ(0);
+}
+
+
+.thirteen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  padding: 25px 10px;
+  margin-left: 16px;
+  transform: translateZ(0);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: 0px 2px 8px -1px #0000001a;
+}
+
+
+
+
+
+
+
+
+
+/* Mobile */
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  .grid {
+    grid-template-columns: repeat(2, 50%);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .vercelLogo {
+    filter: invert(1);
+  }
+
+  .logo,
+  .thirteen img {
+    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
