@@ -70,7 +70,7 @@ export default function About() {
         <p>
           If you missed our fall event the next Big Info is scheduled to return on February 15, 2023.
         </p>
-<br></br>
+<br
         <h2>Campus Tours</h2>
         <br></br>
 
@@ -104,15 +104,10 @@ export default function About() {
         <ul>
           <li>Applied & Natural Sciences
           </li>
-          <br></br>
           <li>Business & Media</li>
-          <br></br>
           <li>Computing & IT</li>
-          <br></br>
           <li>Engineering</li>
-          <br></br>
           <li>Health Sciences</li>
-          <br></br>
           <li>Trades & Apprenticeships</li>
         </ul>
       </div>

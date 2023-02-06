@@ -91,11 +91,10 @@
 /* Mobile */
 @media screen and (max-width: 600px) {
   
-  .contactinfoname{
+  .contactinfo{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    position: relative;
   }
 
   
@@ -103,7 +102,7 @@
 
 /*Tablet*/
 @media screen and (min-width:600px) and (max-width:1000px){
-  .contactinfo{
+  .contactinfoname{
     display: flex;
     flex-direction: row;
     gap: 10px;

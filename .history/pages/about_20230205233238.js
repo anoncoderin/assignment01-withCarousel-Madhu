@@ -104,7 +104,6 @@ export default function About() {
         <ul>
           <li>Applied & Natural Sciences
           </li>
-          <br></br>
           <li>Business & Media</li>
           <br></br>
           <li>Computing & IT</li>
@@ -112,7 +111,6 @@ export default function About() {
           <li>Engineering</li>
           <br></br>
           <li>Health Sciences</li>
-          <br></br>
           <li>Trades & Apprenticeships</li>
         </ul>
       </div>

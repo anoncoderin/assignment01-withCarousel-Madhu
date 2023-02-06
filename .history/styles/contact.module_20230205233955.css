@@ -91,7 +91,7 @@
 /* Mobile */
 @media screen and (max-width: 600px) {
   
-  .contactinfoname{
+  .contactinfo{
     display: flex;
     flex-direction: column;
     gap: 20px;
